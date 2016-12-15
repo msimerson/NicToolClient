@@ -1,0 +1,112 @@
+/* 
+  Author: Matt Simerson (matt@tnpi.net)
+  Version: 1.2
+  Date: 2015.12.08
+}
+*/
+
+body { 
+ background: white; 
+ font-family: Helvetica;
+ font-size: 12px;
+}
+
+table {
+ padding: 2px;
+ border-spacing: 2px;
+ border: 0;
+}
+table.no_pad {
+ padding: 0;
+ border-spacing: 0;
+ border-collapse: collapse;  /* 'cellspacing' equivalent */
+}
+table.no_pad td, table.no_pad th { padding: 0; }
+div {
+  padding: 2px;
+  margin: 2px;
+}
+ul.menu_r {
+ float: right;
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+}
+ul.menu_r li {
+ float: right;
+ display: inline;
+ border-right: 1px dotted;
+ padding-right: 4px;
+ padding-left: 2px;
+}
+ul.menu_r li.first {
+ border-right: none;
+}
+ul.menu_r li:hover {
+ background-color: #336666;
+ color: #FFFFFF;
+}
+
+.float_r  { float: right; }
+.side_pad2{ padding-right: 2px; padding-left: 2px; }
+.side_pad { padding-right: 4px; padding-left: 4px; }
+.side_mar { margin-right: 4px; margin-left: 4px; }
+.margin0  { margin: 0; }
+.margin2 { margin:  2px; }
+.margin4 { margin:  4px; }
+.margint4 { margin-top: 4px; }
+.marginb4 { margin-bottom: 4px; }
+.no_pad   { padding: 0; }      /* 'cellpadding' equivalent */
+.pad1    { padding: 1px; }
+.pad2    { padding: 2px; }
+.pad4	   { padding: 4px; }
+.padb2   { padding-bottom: 2px; }
+.padb4   { padding-bottom: 4px; }
+.nowrap  { white-space: nowrap; }
+.tall    { height: 100%; }
+.fat     { width:  100%; }
+.width80 { width:   80%; }
+.width70 { width:   70%; }
+.width50 { width:   50%; }
+.width1  { width:    1%; }
+.tee     { height: 17px; width: 17px; }
+.left    { text-align: left; }
+.right   { text-align: right; }
+.center  { text-align: center; }
+.middle  { vertical-align: middle; }
+.top     { vertical-align: top; }
+.bold    { font-weight: bold; }
+.nolist  { list-style-type: none; }
+
+.disabled { color: #777777; }
+.dark     { color: #336666; }
+.white_bg { background: white; }
+.dark_bg {
+  background: #336666;
+  color: #FFFFFF;
+}
+.dark_grey_bg { background: #CCCCCC; }
+.light_grey_bg { background: #EEEEEE; }
+.light_hilite_bg { background: #ffffee; }
+.dark_hilite_bg { background: #eeeedd; }
+.red { color: red; }
+.fixedwidth { font-family: "Courier New", "Courier", monospace; }
+.error_bg {
+  background: red;
+  color: white;
+}
+
+.hidden { display: none; }
+
+a:link    { color: #336666 }
+a:visited { color: #336666 }
+/* a:active  { color: #336666 } */
+a:hover, a:active {
+ background-color: #336666;
+ color: #FFFFFF;
+}
+
+img {
+ vertical-align: middle;
+ border: 0;
+}

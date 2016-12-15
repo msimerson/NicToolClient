@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{app_title}}</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <link rel="stylesheet" href="nt-style.css" type="text/css" media="screen" />
+</head>
+
+<body class="center">
+ <div id="loginBox" style="padding-top: 200px; width:250px; margin:0px auto;">
+  <form action="index.cgi" method="POST">
+   <table>
+    <tr><td class="center bold" colspan=2 style="color:red;">{{message}}</td></tr>
+    <tr class="dark_grey_bg">
+		 <td class="dark center bold pad4" colspan=2 style="font-size: 110%;">{{app_title}} Login</td>
+    </tr>
+    <tr class="light_grey_bg">
+     <td class=right>UserName:</td>
+     <td><input type=text name=username size=25></td>
+    </tr>
+    <tr class="light_grey_bg">
+     <td class=right>Password:</td>
+     <td><input type=password name=password size=25></td>
+    </tr>
+    <tr class="dark_grey_bg">
+     <td class="dark center" colspan=2>
+      <input type=hidden name=login value=Enter>
+      <input type=submit name=login value=Login>
+     </td>
+    </tr>
+    <tr>
+     <td colspan=2 class="light_hilite_bg dark right">
+      NicTool
+      <span style="font-size: 80%;"><a href="{{LICENSE}}" TARGET="_blank">License</a> :: <a href="{{SRCURL}}" TARGET="_blank">Source</a></span>
+     </td>
+    </tr>
+   </table>
+  </form>
+ </div>
+</body>
+</html>
